@@ -15,6 +15,7 @@ Created by Joharry Correa 22/07/2018
 @Entity
 public class Category {
 
+    //Seleccionar Category y presionar Alt-Enter to create test of this class
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
