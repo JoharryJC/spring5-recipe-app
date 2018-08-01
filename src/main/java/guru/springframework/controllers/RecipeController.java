@@ -79,6 +79,9 @@ public class RecipeController {
         return  modelAndView;
     }
 
+    /* I am going to comment this method because
+    I am going to create a general class for RecipeController and for ImageController,
+    to validate the Id that the user write for searching
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(NumberFormatException.class)
     public ModelAndView handleNumberFormatException(Exception exception) {
@@ -91,7 +94,7 @@ public class RecipeController {
         modelAndView.setViewName("400error");
         modelAndView.addObject("exception", exception);
         return  modelAndView;
-
     }
+    */
 
 }
